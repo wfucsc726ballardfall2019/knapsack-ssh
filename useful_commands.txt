@@ -1,0 +1,1 @@
+srun --pty --partition=small --nodes=1 --ntasks=44 --reservation=csc726 bash
