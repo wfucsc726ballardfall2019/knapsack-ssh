@@ -1,5 +1,6 @@
 # ignore compiled files
 
+knapsack_sequential
 knapsack_seqential
 *.out
 *.o
