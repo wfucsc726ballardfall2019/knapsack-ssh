@@ -1,5 +1,7 @@
 all: knapsack_sequential.cpp
-	g++ -fopenmp -o knapsack_sequential knapsack_sequential.cpp
+	g++ -fopenmp -o sequential knapsack_sequential.cpp
+	g++ -fopenmp -o parallel knapsack_parallel.cpp
 
 clean:
-	rm knapsack_sequential
+	rm sequential
+	rm parallel
